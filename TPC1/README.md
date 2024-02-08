@@ -42,5 +42,11 @@ MapaRuas-materialBase$ pydt -i texto/MRB-01-RuaDoCampo.xml
 # Resultados
 
 ![1](0.png)
+
+---
+
 ![2](1.png)
+
+---
+
 ![3](2.png)
