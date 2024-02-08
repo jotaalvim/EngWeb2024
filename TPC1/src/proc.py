@@ -32,13 +32,10 @@ for f in os.listdir("../texto"):
         a = re.findall(r'<h1>Rua  Nº (\d+)</h1><h1>(.*)</h1>',content)[0]
         todos.append((int(a[0]), f'{a[0]}: {a[1]}',path[3:]))
         
-print (todos)
-    
 html = ' <!DOCTYPE html> <html lang="en"> <head> <title>Aula 1</title> <meta charset="utf-8"> </head> <body> <h1> Ruas de Braga </h1> <ul>'
 fim = "</ul> </body> </html>"
 
 for _,nome,path in sorted(todos, key=lambda k : k[0]):
     html += f"<li> <a href={path}> {nome} </li>"
-
     with open('../mapa.html','w') as m:
         m.write(html + fim)
