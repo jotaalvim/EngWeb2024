@@ -25,3 +25,23 @@ GET /filmes  -- listagem de filmes (cada é link para a página dele)
 ```
 :%s/}$/},
 ```
+
+
+
+# Resultados
+
+![1](0.png)
+
+---
+
+![2](1.png)
+
+Este data set tem muito ruído, por isso quando ordeno os atores fica muito lixo todo no início
+---
+
+![3](2.png)
+
+--- 
+
+![3](3.png)
+
