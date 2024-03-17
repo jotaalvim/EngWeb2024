@@ -1,0 +1,15 @@
+extends layout 
+block content 
+    .w3-card-4
+        header.w3-container.w3-yellow
+            h1 Periodos List
+        .w3-container
+            table.w3-table-all
+                tr
+                    th Períodos
+                
+                for p in plist
+                    tr
+                        td
+                            a(href="/compositores/periodos/"+p) #{p}
+                        
