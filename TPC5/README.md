@@ -6,4 +6,4 @@ fazer o tpc4 mas com uma linguagem template
 
 Consegui fazer tudo, deixo só uma pequena alteração da interface
 
-[0](0.png)
+![0](0.png)
