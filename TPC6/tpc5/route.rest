@@ -1,0 +1,34 @@
+
+
+GET http://localhost:7777/compositores
+
+###
+
+POST http://localhost:7777/compositores/
+Content-Type: application/json
+{
+    "id" : "C179",
+    "nome": "Ludwig van Beethoven",
+    "periodo": "Romantico",
+    "dataNasc": "1770-12-17",
+    "dataObito": "1827-03-26",
+    "bio": "asdasdasdasdasdasdasdasdasd"
+}
+
+###
+
+DELETE  http://localhost:7777/compositores/C26
+
+
+###
+
+PUT http://localhost:7777/compositores/C26
+Content-Type: application/json
+{
+    "id": "C26",
+    "nome": "Alessandro Marcello",
+    "periodo": "Barroco",
+    "dataNasc": "1673-02-01T00:00:00.000Z",
+    "dataObito": "1747-06-19T00:00:00.000Z",
+    "bio": "KKKKKKKKKKKK"
+}
