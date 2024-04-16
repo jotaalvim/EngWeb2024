@@ -1,0 +1,131 @@
+
+
+
+GET  http://localhost:7777/
+
+
+###
+
+POST http://localhost:7777/
+content-type: application/json
+   
+{
+  "nome": "AAAola",
+  "idade": 31415926,
+  "sexo": "outrasdo",
+  "morada": {
+    "cidade": "Vila Viçosa",
+    "distrito": "Évora"
+  },
+  "BI": "10598619-7",
+  "descrição": "Ullamco magna ea est nostrud aute dolore non et ea aliquip aliquip et magna. Commodo qui et laboris enim. Id amet nisi non et irure quis do incididunt do.",
+  "profissao": "Sargento da Guarda Nacional Republicana",
+  "partido_politico": {
+    "party_abbr": "PSN",
+    "party_name": "Partido Nacional de Solidariedade"
+  },
+  "religiao": "Candomblé",
+  "desportos": [
+    "Columbofilia",
+    "Ciclismo"
+  ],
+  "animais": [
+    "Pato-real",
+    "Dugongo",
+    "Ovelha",
+    "Gorila"
+  ],
+  "figura_publica_pt": [
+    "Áurea"
+  ],
+  "marca_carro": "Proton",
+  "destinos_favoritos": [
+    "Chade",
+    "Catar",
+    "Botsuana"
+  ],
+  "atributos": {
+    "fumador": false,
+    "gosta_cinema": false,
+    "gosta_viajar": true,
+    "acorda_cedo": false,
+    "gosta_ler": true,
+    "gosta_musica": false,
+    "gosta_comer": false,
+    "gosta_animais_estimacao": true,
+    "gosta_dancar": true,
+    "comida_favorita": "italiana"
+  }
+}
+
+
+
+###
+
+DELETE http://localhost:7777/AAAola
+
+
+###
+
+PUT http://localhost:7777/AAAola
+content-type: application/json
+   
+{
+  "nome": "AAAola",
+  "idade": 1000000000000,
+  "sexo": "outrasdo",
+  "morada": {
+    "cidade": "Vila Viçosa",
+    "distrito": "Évora"
+  },
+  "BI": "10598619-7",
+  "descrição": "Ullamco magna ea est nostrud aute dolore non et ea aliquip aliquip et magna. Commodo qui et laboris enim. Id amet nisi non et irure quis do incididunt do.",
+  "profissao": "Sargento da Guarda Nacional Republicana",
+  "partido_politico": {
+    "party_abbr": "PSN",
+    "party_name": "Partido Nacional de Solidariedade"
+  },
+  "religiao": "Candomblé",
+  "desportos": [
+    "Columbofilia",
+    "Ciclismo"
+  ],
+  "animais": [
+    "Pato-real",
+    "Dugongo",
+    "Ovelha",
+    "Gorila"
+  ],
+  "figura_publica_pt": [
+    "Áurea"
+  ],
+  "marca_carro": "Proton",
+  "destinos_favoritos": [
+    "Chade",
+    "Catar",
+    "Botsuana"
+  ],
+  "atributos": {
+    "fumador": false,
+    "gosta_cinema": false,
+    "gosta_viajar": true,
+    "acorda_cedo": false,
+    "gosta_ler": true,
+    "gosta_musica": false,
+    "gosta_comer": false,
+    "gosta_animais_estimacao": true,
+    "gosta_dancar": true,
+    "comida_favorita": "italiana"
+  }
+}
+
+### MODALIDADES
+
+
+GET  http://localhost:7777/modalidades
+
+
+###
+
+GET  http://localhost:7777/modalidades/Escalada
+
